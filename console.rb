@@ -26,15 +26,28 @@ album2 = Album.new({
 album1.save
 album2.save
 
+# album2.title = "I'm afraid you frayed my jeans"
+# artist1.name = "Billy Green Garters"
 
+# album2.update
+# artist1.update
 # result1 = artist1.all_albums
+#
+# result2 = album2.all_artists
 
-result2 = album1.all_artists
+#
+#
+# album2.delete
+# artist1.delete
 
 
+
+#
 # pp Artist.all
 # pp Album.all
 
+pp Album.find(3)
+pp Artist.find(2)
 
 
 binding.pry
